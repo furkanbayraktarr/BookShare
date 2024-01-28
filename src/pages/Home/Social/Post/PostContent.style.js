@@ -1,0 +1,165 @@
+import colors from "../../../../styles/colors"
+import { Dimensions, StyleSheet } from "react-native"
+
+export default StyleSheet.create({
+  main_container:{
+    flex:1,
+    backgroundColor:"black"
+},
+  container:{
+    backgroundColor:"black",
+    borderBottomColor:colors.darkgray,
+    borderBottomWidth:0.5,
+    padding:5,
+},
+upper_container:{
+    flexDirection:"row",
+    justifyContent:"space-between",
+    margin:3
+},
+user:{
+    color:"white",
+    fontSize:17,
+    fontWeight:"bold",
+    marginLeft:5,
+    alignSelf:"center"
+},
+date:{
+    color:colors.darkgray,
+    fontSize:12,
+    fontStyle:"italic",
+    marginBottom:10
+},
+text:{
+    color:"white",
+    fontSize:17,
+    marginTop:10,
+    margin:3,
+    marginLeft:13
+},
+image:{
+    height:130,
+    width:80,
+    alignSelf:"center",
+    marginTop:20
+},
+date_container:{
+    marginTop:20,
+    marginBottom:5,
+    marginLeft:5
+},
+like:{
+    color:"white",
+    fontWeight:"bold",
+},
+likes_text:{
+    color:colors.darkgray
+},
+comment_text:{
+    color:colors.darkgray,
+    marginRight:10
+},
+like_container:{
+    flexDirection:"row",
+    
+},
+scroll:{
+    marginBottom:140,
+},
+answer_touch:{
+    borderRadius:20,
+    backgroundColor:colors.slategray,
+    position:"absolute",
+    bottom:80,
+    alignSelf:"center",
+    width:Dimensions.get("window").width-30,
+    height:28,
+},
+answer_text:{
+    color:colors.lightgray,
+    alignSelf:"center",
+    textAlign:"center",
+    borderRadius:20,
+    width:Dimensions.get("window").width-30,
+    height:28,
+    padding:4
+},
+like_Icon:{
+    marginLeft:10,
+},
+icons_container:{
+    borderBottomWidth:3,
+    borderBottomColor:colors.darkgray,
+    flexDirection:"row",
+    padding:7
+},
+like_comment_container:{
+    flexDirection:"row"
+},
+comment_icon:{
+    marginLeft:20,
+    marginRight:20
+},
+back_container:{
+    marginLeft:5,
+    marginTop:5
+},
+head_container:{
+    flexDirection:"row",
+    marginTop:10
+},
+pageHeader:{
+    color:"white",
+    fontSize:15,
+    marginTop:5,
+    fontWeight:"bold",
+    marginLeft:153.5
+},
+comments_header:{
+    fontSize:16,
+    color:"white",
+    alignSelf:"center",
+    fontWeight:"bold"
+},
+comments_header_container:{
+    borderBottomWidth:0.3,
+    borderBottomColor:"white",
+    padding:7
+},
+search_main_container:{
+    flex:1,
+    backgroundColor:"black"
+},
+Search:{
+    padding:5,
+    marginBottom:10,
+},  
+search_container:{
+    flexDirection:"row",
+    justifyContent:"space-between",
+    alignItems:"center",
+    margin:5,
+    borderBottomWidth:0.5,
+    borderColor:colors.darkgray
+},
+searchBar_container:{
+    flex:1,
+    marginLeft:5
+},
+container_searchedList:{
+    marginBottom:200,
+},
+profile_photo:{
+    width:35,
+    height:35,
+    borderRadius:50,
+},
+profile_container:{
+    flexDirection:"row",
+    marginLeft:5
+},
+delete_button:{
+    marginTop:2
+}
+
+})

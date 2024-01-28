@@ -1,0 +1,70 @@
+import { StyleSheet } from "react-native";
+import colors from "../../../styles/colors";
+
+export default StyleSheet.create({
+    container:{
+        backgroundColor:"black",
+        borderBottomColor:colors.darkgray,
+        borderBottomWidth:0.5,
+        padding:5
+    },
+    inner_container:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        margin:3
+    },
+    user:{
+        color:"white",
+        fontSize:17,
+        fontWeight:"bold",
+        marginLeft:5,
+        alignSelf:"center"
+    },
+    date:{
+        color:colors.darkgray,
+        fontSize:12,
+        fontStyle:"italic",
+        marginRight:10
+
+    },
+    text:{
+        color:"white",
+        fontSize:17,
+        marginTop:10,
+        margin:3,
+        marginLeft:13
+
+    },
+    image:{
+        height:130,
+        width:80,
+        alignSelf:"center",
+        marginTop:20,
+    },
+    like_comment_container:{
+        flexDirection:"row",
+        marginTop:10,
+        marginBottom:5,
+        marginLeft:10
+    },
+    like:{
+        color:colors.darkgray,
+        marginLeft:3
+    },
+    comment_container:{
+        marginRight:20,
+        flexDirection:"row"
+    },
+    profile_photo:{
+        width:35,
+        height:35,
+        borderRadius:50,
+    },
+    profile_container:{
+          flexDirection:"row",
+          marginLeft:5
+    },
+    date_close_container:{
+        flexDirection:"row"
+    }
+})
