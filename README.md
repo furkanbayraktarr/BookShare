@@ -1,4 +1,6 @@
-Part-1
-https://github.com/furkanbayraktarr/BookShare/assets/128421354/7c4c98a4-5219-4c2a-86ca-cbb4a5f4b7e2
+https://github.com/furkanbayraktarr/BookShare/assets/128421354/15208e7c-f5de-4fa5-9b39-231fda3015fc
+https://github.com/furkanbayraktarr/BookShare/assets/128421354/5f4d077a-c996-4405-b692-a2b85d9784f1
+
+
 
 
