@@ -77,7 +77,7 @@ async function handleFormSubmit (formValues) {
         isSecure
       />
       <Button text="Log In" onPress={handleSubmit} loading={loading}/>
-      <Button text="Sign Up" theme="secondary" onPress={onSelect} />
+      <Button text="Create Account" theme="secondary" onPress={onSelect} />
       </View>
     </>
   )}
