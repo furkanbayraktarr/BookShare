@@ -11,6 +11,7 @@ return(
     theme="alternative"
     autoFocus
     multiline
+    clear={true}
     />
 )
 
