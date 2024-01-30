@@ -11,7 +11,7 @@ async function fetchData(){
         await axios.get(url).then(
         response=>{setData(response.data)})
     } catch (error) {
-        console.log(error)
+        setError(error)
     }    
     
     }
